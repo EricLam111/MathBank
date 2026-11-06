@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>数学分析刷题台 · MathBank</title>
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">数学分析刷题台</a>
+  <nav id="nav">
+    <a href="#/" data-route="/">首页</a>
+    <a href="visual.html">看懂（3D）</a>
+    <a href="words.html">背单词</a>
+    <a href="#/bank" data-route="/bank">题库</a>
+    <a href="#/wrong" data-route="/wrong">错题本</a>
+    <a href="#/stats" data-route="/stats">统计</a>
+  </nav>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer class="foot">
+  纯本地运行 · 进度存在浏览器 localStorage · 公式由本地 KaTeX 渲染 · 键盘：<kbd>Enter</kbd> 检查 / 下一题
+</footer>
+<script src="vendor/katex/katex.min.js"></script>
+<script src="vendor/katex/auto-render.min.js"></script>
+<script src="data/lessons.js"></script>
+<script src="data/scenes.js"></script>
+<script src="data/questions.js"></script>
+<script src="assets/core.js"></script>
+<script src="assets/ui.js"></script>
+</body>
+</html>

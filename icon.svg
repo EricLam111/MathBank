@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="数学分析刷题台">
+  <defs>
+    <linearGradient id="mb-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12a094"/>
+      <stop offset="1" stop-color="#0b5f59"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="92" height="92" rx="22" fill="url(#mb-bg)"/>
+  <rect x="2" y="2" width="92" height="92" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M68 26c-10-6-21-3-23 8-2 12-2 24-4 34-2 10-12 12-21 6"
+        fill="none" stroke="#ffffff" stroke-width="7.5"
+        stroke-linecap="round" stroke-linejoin="round" opacity="0.96"/>
+  <ellipse cx="69" cy="68" rx="9" ry="4.6" fill="#fdf6e3" opacity="0.92" transform="rotate(-30 69 68)"/>
+</svg>
